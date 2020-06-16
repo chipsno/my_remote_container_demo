@@ -6,12 +6,15 @@
 	
 	// Set *default* container specific settings.json values on container create. 
 	"settings": {
-		"terminal.integrated.shell.linux": "/bin/ash"
+		"terminal.integrated.shell.linux": "/bin/ash",
+		"python.pythonPath": "/usr/local/bin/python"
 	},
 
 	// Add the IDs of extensions you want installed when the container is created.
 	// Note that some extensions may not work in Alpine Linux. See https://aka.ms/vscode-remote/linux.
-	"extensions": []
+	"extensions": [
+		"ms-python.python"
+	]
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],

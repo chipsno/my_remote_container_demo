@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: file (Integrated Terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "osx": {
+                "pythonPath": "${config:python.pythonPath}"
+            },
+            "windows": {
+                "pythonPath":  "${config:python.pythonPath}"
+            },
+            "linux": {
+                "pythonPath": "${config:python.pythonPath}"
+            },
+            "env": {},
+            "cwd": "${workspaceRoot}",
+            "args": [
+            ]
+        }
+    ]
+}
